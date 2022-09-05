@@ -14,15 +14,12 @@ function Contact() {
         <div className="container">
           <div className="text-wrapper w-full">
             <h1 data-cy="pageTitle" className="title">
-              Contact
+              Say hello!
             </h1>
-            <p className="description">
-              Incididunt in cillum magna occaecat nisi qui in exercitation
-              labore anim adipisicing amet irure tempor.
-            </p>
+            <p className="description"></p>
             <ul className="contact-links">
-              <li className="contact-item">Email: lutfhi@me.com</li>
-              <li className="contact-item">Phone: +6212344321007</li>
+              <li className="contact-item">Email: hallo@deona.at</li>
+              <li className="contact-item">Phone: +4367761817358</li>
             </ul>
           </div>
         </div>
