@@ -15,11 +15,11 @@ function Home() {
         <div className="container">
           <div className="text-wrapper">
             <h1 data-cy="homePageTitle" className="title">
-              Hi! My name is Beppino Defner
+              Hi! My name is <span class="point-out-span"> Beppino </span>
             </h1>
             <p className="description">
-              I am web developer to be, with a background in physics,
-              sustainable development and system science.
+              I'm on my way of becoming a web developer and am currently in the
+              UpLeveled Bootcamp, learning and building my portfolio.
             </p>
 
             <Link href="/contact">

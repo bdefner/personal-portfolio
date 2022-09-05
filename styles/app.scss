@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
+:root {
+  --c1: rgb(71, 3, 120);
+  --c2: rgb(255, 145, 0);
+}
+
 body {
   font-family: 'Helvetica', sans-serif;
   font-size: 18px;
@@ -81,7 +86,7 @@ a[href] {
     }
 
     .title {
-      font-size: 48px;
+      font-size: 3rem;
       margin-top: 0;
       margin-bottom: 10px;
     }
@@ -151,4 +156,10 @@ a[href] {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+}
+
+.point-out-span {
+  background: -webkit-linear-gradient(45deg, var(--c1), var(--c2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
