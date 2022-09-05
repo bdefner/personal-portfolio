@@ -2,12 +2,13 @@
 
 :root {
   --c1: rgb(71, 3, 120);
-  --c2: rgb(255, 145, 0);
+  --c2: rgb(193, 109, 0);
 }
 
 body {
   font-family: 'Helvetica', sans-serif;
   font-size: 18px;
+  min-height: 100vh;
 }
 
 a[href] {
@@ -26,6 +27,7 @@ a[href] {
   .container {
     display: flex;
     align-items: center;
+    min-height: 100%;
   }
 
   .logo {
@@ -58,12 +60,11 @@ a[href] {
           left: 0;
           width: 25px;
           height: 2px;
-          background-color: #000;
+          background-color: var(--c2);
         }
       }
-
       &:hover {
-        opacity: 0.5;
+        cursor: pointer;
       }
     }
   }
@@ -76,6 +77,7 @@ a[href] {
   .container {
     display: flex;
     align-items: center;
+    min-height: 100%;
   }
 
   .text-wrapper {
@@ -99,6 +101,9 @@ a[href] {
       left: -5%;
     }
 
+    .title .biggest-text {
+      color: var(--c2);
+    }
     .description {
       font-size: 22px;
       line-height: 40px;
@@ -170,4 +175,20 @@ a[href] {
   background: -webkit-linear-gradient(45deg, var(--c1), var(--c2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.skills-container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills-logo {
+  height: 100px;
+}
+
+.align-center {
+  text-align: center;
 }

@@ -37,6 +37,33 @@ function Home() {
           </div>
         </div>
       </section>
+      <section id="skills-section">
+        <div class="container">
+          <h2 class="align-center">Im working with...</h2>
+          <div class="skills-container">
+            <div>
+              <img src="/logos/HTML.png" alt="HTML5 Logo" class="skills-logo" />
+            </div>
+            <div>
+              <img src="/logos/CSS.png" alt="CSS3 Logo" class="skills-logo" />
+            </div>
+            <div>
+              <img
+                src="/logos/JavaScript.png"
+                alt="JavaScript Logo"
+                class="skills-logo"
+              />
+            </div>
+            <div>
+              <img
+                src="/logos/react.png"
+                alt="React Logo"
+                class="skills-logo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
