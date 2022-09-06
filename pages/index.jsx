@@ -30,7 +30,7 @@ function Home() {
 
           <div className="image-wrapper">
             <img
-              src="Portrait.png"
+              src="Portrait-v2.png"
               alt="Portrait sketch of Beppino"
               id="portrait-img"
             />
